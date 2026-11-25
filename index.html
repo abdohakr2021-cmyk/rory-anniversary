@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff1f5">
+  <title>For Rory — Our Little World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home">Rory <span>♥</span></a>
+    <a class="tiny-link" href="#letter">رسالة ليكي</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">A LITTLE WORLD MADE FOR YOU</p>
+        <h1>For my <em>Rory</em> <span class="pink-heart">♥</span></h1>
+        <p class="hero-sub">حكايتنا، ضحكتنا، وكل التفاصيل الصغيرة اللي خلتك أغلى حد عندي.</p>
+        <a class="primary-btn" href="#story">افتحي حكايتنا <span>♥</span></a>
+        <p class="date-line">25.11.2024 — 25.11.2026</p>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-tape"></div>
+        <img class="hero-photo" src="images/memory-01.jpg" alt="ذكرى جميلة لنا">
+        <span class="photo-caption">my favorite place is beside you</span>
+      </div>
+      <span class="decor decor-one">✿</span><span class="decor decor-two">♡</span>
+    </section>
+
+    <section class="section intro-card" id="story">
+      <p class="eyebrow">OUR STORY</p>
+      <h2>حكاية بدأت بتفصيلة صغيرة...</h2>
+      <p>من جروب سكشن التكنولوجيا، لكلام وضحك وهزار، لحد ما بقينا حكاية واحدة. ودي شوية صفحات من حكايتنا.</p>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot">01</span>
+          <div><h3>أول خيط في الحكاية</h3><p>أول مرة عرفتك فيها عن طريق جروب سكشن التكنولوجيا.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot">02</span>
+          <div><h3>ضحك وهزار وتعارف</h3><p>أيام ما كنا بنتعرف على بعض، وكل مرة الكلام كان بيخلينا أقرب.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot">03</span>
+          <div><h3>لما بقينا إحنا</h3><p>لما حبينا بعض وفاجأنا بعض، وبدأت حكايتنا تاخد معنى تاني.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot">♡</span>
+          <div><h3>تفصيلة مش بنساها</h3><p>الورق الملون وقلوب الحب... ذكرى صغيرة بس ليها مكان كبير.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="memories">
+      <p class="eyebrow">OUR MEMORIES</p>
+      <h2>صور بتحكي أكتر من كلام</h2>
+      <p class="section-note">كل صورة هنا ليها حكاية، وكل حكاية ليها مكان في قلبي.</p>
+      <div class="gallery">
+        <figure class="polaroid tilt-left"><img src="images/memory-02.jpg" alt="ذكرى لنا"><figcaption>ضحكتنا الحلوة ♥</figcaption></figure>
+        <figure class="polaroid tilt-right"><img src="images/memory-03.jpg" alt="ذكرى لنا"><figcaption>من اللحظات اللي بحبها</figcaption></figure>
+        <figure class="polaroid tilt-left"><img src="images/memory-04.jpg" alt="ذكرى لنا"><figcaption>إحنا وبس</figcaption></figure>
+        <figure class="polaroid tilt-right"><img src="images/memory-05.jpg" alt="ذكرى لنا"><figcaption>ذكرى جديدة تفضل معانا</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section songs-section" id="songs">
+      <p class="eyebrow">OUR SONGS</p>
+      <h2>أغاني بتفكرني بيكي</h2>
+      <p class="section-note">اختاري الأغنية، واضغطي تشغيل. المقطع الأول من 1:25 إلى 1:56، والتاني من 0:30 إلى 1:26.</p>
+      <div class="song-card">
+        <div class="song-icon">♫</div>
+        <div class="song-info"><h3>Our First Song</h3><p>المقطع المفضل — 31 ثانية</p></div>
+        <button class="song-btn" data-song="0">تشغيل ♥</button>
+      </div>
+      <div class="song-card">
+        <div class="song-icon">♫</div>
+        <div class="song-info"><h3>Our Second Song</h3><p>المقطع المفضل — 56 ثانية</p></div>
+        <button class="song-btn" data-song="1">تشغيل ♥</button>
+      </div>
+      <div id="player" class="youtube-player" aria-label="مشغل الأغاني"></div>
+      <p class="player-note">ملحوظة: تشغيل الأغاني يعتمد على توفر الفيديو وإعدادات YouTube والاتصال بالإنترنت.</p>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <p class="eyebrow">A LETTER FOR YOU</p>
+      <h2>في كلام مخصوص ليكي...</h2>
+      <p class="section-note">اضغطي على الظرف عشان تفتحي رسالتك.</p>
+      <button class="envelope" id="open-letter" aria-expanded="false">
+        <span class="envelope-heart">♥</span><span>افتحي رسالتك</span>
+      </button>
+      <article class="letter" id="love-letter" hidden>
+        <h3>إلى Rory بتاعتي ♥</h3>
+        <p>كل سنة وإنتي معايا يا حبيبتي، وفي سعادة وصحة، ومع بعض في المرة قبل الحلوة. ودائمًا ننكش في بعض ونزعل، بس عمرنا ما بنبعد؛ علشان عارفين إننا ملناش غير بعض في الآخر.</p>
+        <p>دائمًا أشوفك مبسوطة وكويسة، ونتجوز بقى يا نور عيني. وبحبك في كل الأوقات وفي كل حالاتك وملامحك وشكلك وشعرك وجسمك وكل كل حاجة فيكي، وبحب هبلك وعبطك يا عبوطة.</p>
+        <p>بحبك من كل قلبي يا قلبي، إنتي أصلًا... وبعد ده كله مش عايز حاجة من الدنيا غيرك.</p>
+        <p class="signature">بحبك يا Rory ♥</p>
+      </article>
+    </section>
+
+    <section class="final-section">
+      <div class="final-flower">✿</div>
+      <p class="eyebrow">25 NOVEMBER 2026</p>
+      <h2>سنتين من حكايتنا...</h2>
+      <p>ويا رب اللي جاي يبقى مليان أيام حلوة وضحك وراحة بال وذكريات أكتر.</p>
+      <div class="big-heart">♥</div>
+      <p class="final-sign">Forever a part of my story.</p>
+    </section>
+  </main>
+
+  <footer>Made with love, just for Rory <span>♥</span></footer>
+  <script src="script.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
